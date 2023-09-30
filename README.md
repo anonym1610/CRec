@@ -1,8 +1,8 @@
 # Getting Started with CRec
 
-In software development, programmers reuse existing source code to improve their development workflow. However, source code is widely shared via images and videos, like scanned books or online learning video clips. It is time-consuming to manually extract source code and convert into editable code. This extraction can be automated via applying Optical Character Recognition (OCR) techniques. Due to the accuracy of recognizing source code via OCR, programmers have to manually recover the compilability for such OCRed source code, i.e., editable source code that is recognized via OCR.
+In software development, programmers reuse existing source code to improve their development workflow. However, source code is widely shared via images and videos, like scanned books or online learning video clips. It is time-consuming to manually extract source code and convert into editable code. This extraction can be automated via applying Optical Character Recognition (OCR) techniques. Due to the accuracy of recognizing source code via OCR, programmers have to manually fix lexical and syntax errors for such OCRed source code, i.e., recovering source code from the recognition results of OCR.
 
-CRec is an automatic tool for recovering the compilability of OCRed source code in Java programs. CRec aims to fix lexical and syntax errors in OCRed source code and make the output pass the compilation.
+CRec is an automatic tool for fixing lexical and syntax errors of OCRed source code in Java programs. The goal of CRec is to make the output pass the compilation and save the time cost of manual modification by developers.
 
 Before running CRec, you need to first configure its runtime environment. Navigate to this folder in the terminal and run this command:
 ```
